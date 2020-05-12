@@ -15,9 +15,11 @@ public class Application {
 
 		// driver.get("https://testguild.com/"); // to launch URL
 
-//		String url = "https://testguild.com/";
+//		String urlvalu = "https://testguild.com/";
 
 		driver.navigate().to(url);
+		
+	
 
 		System.out.println("Launch the url " + url);
 	}
