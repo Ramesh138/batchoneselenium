@@ -53,6 +53,9 @@ public class locators {
 		
 		depdropdown.selectByIndex(6);
 		
+		
+		
+		
 		depdropdown.selectByValue("Paris");
 		
 		
