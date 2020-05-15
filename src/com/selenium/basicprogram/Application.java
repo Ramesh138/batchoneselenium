@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Application {
 
-	static WebDriver driver = null;
+	public static WebDriver driver = null;
 
 	public static void launchurl(String url) {
 		System.setProperty("webdriver.chrome.driver", ".//driver//chromedriver.exe");
@@ -22,6 +22,21 @@ public class Application {
 	
 
 		System.out.println("Launch the url " + url);
+	}
+	
+	
+	
+	public void mercuryLOgin() throws InterruptedException {
+		driver.findElement(By.name("userName")).sendKeys("Pradeephnk@gmail.com");
+
+		Thread.sleep(1000);
+
+		driver.findElement(By.name("password")).sendKeys("Hansika2010");
+		
+		Thread.sleep(1000);
+		
+		
+		driver.findElement(By.name("login")).click();
 	}
 
 	public static void maximiseTheWindow() {
