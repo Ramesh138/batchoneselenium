@@ -14,6 +14,12 @@ public class Xpath extends Application {
 		//Contains==============//*[contains(@type,'text')]
 			
 		//text()=================//*[text()='Selenium']
+		
+		//starts-with===========.//*[starts-with(@href,'mercury')]
+		
+		//following =========	//*[@name='airline']//preceding::select[1]
+		
+		//preceding========//*[@name='airline']//preceding::select[1]
 
 		Application app = new Application();
 
