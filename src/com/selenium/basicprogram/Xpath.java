@@ -17,10 +17,11 @@ public class Xpath extends Application {
 		
 		//starts-with===========.//*[starts-with(@href,'mercury')]
 		
-		//following =========	//*[@name='airline']//preceding::select[1]
+		//following =========	//*[@name='passCount']//following::select[1]
 		
 		//preceding========//*[@name='airline']//preceding::select[1]
 
+		
 		Application app = new Application();
 
 		app.launchurl("http://newtours.demoaut.com/");
