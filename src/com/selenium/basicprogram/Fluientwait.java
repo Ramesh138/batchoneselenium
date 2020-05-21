@@ -13,6 +13,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.Wait;
 
 public class Fluientwait {
@@ -35,6 +36,13 @@ public class Fluientwait {
 	//List<WebElement>= new arraylis
 		
 		List<WebElement> li= new ArrayList<WebElement>();
+		
+		WebElement drop= driver.findElement(By.xpath(".//input[@name='uid1']"));
+
+		
+		Select value= new Select(drop);
+		
+		value.selectByVisibleText("");
 		
 		
 		Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
