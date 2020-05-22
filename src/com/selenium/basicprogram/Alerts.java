@@ -39,5 +39,24 @@ public class Alerts {
 			
 
 	}
+	 
+	 
+	 
+	 public void alertmethod() throws InterruptedException {
+		 	driver.findElement(By.name("alert")).click();
+			
+			Thread.sleep(2000);
+			
+			Alert alert = driver.switchTo().alert();  // Switch to pop up 
+			
+			
+			String value =alert.getText();
+			
+			System.out.println(value);
+			
+			alert.accept();
+		
+			Thread.sleep(1000);
+	 }
 
 }
