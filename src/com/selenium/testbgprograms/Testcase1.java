@@ -10,30 +10,22 @@ import com.selenium.basicprogram.Launchurl;
 public class Testcase1 {
 	
 	
-	Launchurl lu= new Launchurl();
+
 	@BeforeTest
-	
 	public void launchurl() {
-		lu.launchurlmethod();
-		
-		System.out.println(" Launch the browser");
+	
+		System.out.println(" Launching Url");
 	}
 	
 	@Test
-	
 	public void testcase1() throws InterruptedException {
-		Alerts al= new Alerts();
 		
-		al.alertmethod();
-		
-		System.out.println("File flight details");
+		System.out.println("testcase 1");
 	}
 	
 	@AfterTest
 	public void closebrowser() {
-		lu.closethebrowser();
-		System.out.println("close the browser");
-		
+		System.out.println(" close the browser");
 	}
 
 }

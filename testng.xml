@@ -3,10 +3,15 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.selenium.testbgprograms.Basictestngprogram"/>
-      <class name="com.selenium.testbgprograms.Testcase1"/>
-      <class name="com.selenium.testbgprograms.Testcase2"/>
-      <class name="com.selenium.testbgprograms.Testcase3"/>
+    <class name="com.selenium.testngprograms.TC"/>
+      <class name="com.selenium.testngprograms.TC1"/>
+      <class name="com.selenium.testngprograms.TC2"/>
+      <class name="com.selenium.testngprograms.TC3"/>
+      <class name="com.selenium.testngprograms.TC4"/>
+      <class name="com.selenium.testngprograms.TC5"/>
+      <class name="com.selenium.testngprograms.TC6"/>
+      
+
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
