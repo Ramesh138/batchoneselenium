@@ -2,15 +2,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+  
+  <parameter name ="fullname" value="Ramesh Ponneri" />
+  
+   <parameter name ="lname" value="Ponneri" />
+  
+   <parameter name ="fname" value="Ramesh" />
+  
     <classes>
-    <class name="com.selenium.testngprograms.TC"/>
-      <class name="com.selenium.testngprograms.TC1"/>
-      <class name="com.selenium.testngprograms.TC2"/>
-      <class name="com.selenium.testngprograms.TC3"/>
-      <class name="com.selenium.testngprograms.TC4"/>
-      <class name="com.selenium.testngprograms.TC5"/>
-      <class name="com.selenium.testngprograms.TC6"/>
-      
+  
+      <class name="com.selenium.testngprograms.TC1"/>     
 
     </classes>
   </test> <!-- Test -->
